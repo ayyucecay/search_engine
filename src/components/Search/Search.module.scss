@@ -1,0 +1,19 @@
+.input {
+    width: 40%;   
+    padding: 10px 15px;
+    &:focus {outline: none;}
+    font-size: 1rem !important;
+    line-height: 1.5;
+    
+}
+.btn {
+    padding: 10px 15px;
+    vertical-align: inherit !important;
+    border-radius:0 ;
+    background-color: gray;
+    font-size: 1rem !important;
+}
+
+@media (max-width: 576px) {
+    .input { width: 60%; }
+}
